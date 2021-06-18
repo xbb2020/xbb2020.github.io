@@ -1304,7 +1304,7 @@ a {
   overflow-wrap: break-word;
   word-wrap: break-word;
   transition: all 0.2s ease-in-out 0s;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur");
 }
 a:hover {
   border-bottom-color: var(--color-blue);
@@ -1313,6 +1313,9 @@ a:hover {
 a::before,
 a::after {
   transition: all 0.4s ease-in-out 0s;
+}
+a:active {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rsnya.cur");
 }
 a,
 li,
@@ -1427,7 +1430,7 @@ textarea {
 }
 .button {
   display: inline-block;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   touch-action: manipulation;
   text-align: center;
   text-decoration: none;
@@ -1472,7 +1475,7 @@ textarea {
 }
 .toggle {
   line-height: 0;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
 }
 .toggle .line {
   background: var(--header-text-color);
@@ -2015,7 +2018,7 @@ main >.inner {
 }
 #nav .right .item {
   padding: 0.625rem 0.5rem;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
 }
 #nav .right .i-sun {
   font-size: 1.125em;
@@ -2106,7 +2109,7 @@ main >.inner {
   width: 1.875rem;
   height: 1.875rem;
   opacity: 0.5;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -2550,7 +2553,7 @@ main >.inner {
   transition: all 0.2s ease-in-out 0s;
 }
 #quick li i {
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
 }
 #quick li a {
   width: 100%;
@@ -2577,7 +2580,7 @@ main >.inner {
   min-height: 1.875rem;
 }
 #sidebar .tab .item {
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   display: inline-flex;
   font-size: 0.875em;
   padding: 0.3125rem 0.9375rem;
@@ -3314,7 +3317,7 @@ main >.inner {
   border: 0;
   border-radius: 0.3125rem;
   color: var(--grey-0);
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   line-height: 2;
   outline: 0;
   padding: 0 0.9375rem;
@@ -4544,7 +4547,7 @@ main >.inner {
 }
 .operation {
   color: var(--grey-5);
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   position: absolute;
   padding: 0.125rem 0.375rem;
   right: 0.125rem;
@@ -4743,7 +4746,7 @@ code,
 }
 .code-container .show-btn {
   position: absolute;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -4897,7 +4900,7 @@ code,
   left: -1.8em;
   background: var(--primary-color);
   color: var(--grey-1);
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
 }
 .md ol >li.ruby::before {
   top: 0.3em;
@@ -4999,7 +5002,7 @@ code,
 }
 .md ol>li.quiz >p {
   margin: 0;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
 }
 .md ol>li.quiz >p:first-child::before {
   content: "[" attr(data-type) "]";
@@ -5093,7 +5096,7 @@ code,
   content: "E.";
 }
 .md ol>li.quiz >ul.options li {
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
 }
 .md ol>li.quiz >ul.options li::after {
   font-family: 'ic';
@@ -5217,7 +5220,7 @@ details > summary:first-of-type {
 }
 details summary {
   outline: none;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   padding: 0.625rem;
   background: var(--note-bg, none);
   border-radius: 0.25rem;
@@ -5318,7 +5321,7 @@ span.label {
 }
 .tabs .nav li {
   position: relative;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   border: none;
   display: inline-block;
   padding: 0.3125rem 1.25rem;
@@ -5351,7 +5354,7 @@ span.label {
 }
 .tabs .show-btn {
   position: absolute;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   right: 0;
   bottom: 0;
   width: 2.875rem;
@@ -5442,7 +5445,7 @@ span.label {
 .player-info .controller {
   font-family: 'ic';
   font-weight: normal;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   font-size: 1.25em;
   display: flex;
   justify-content: space-around;
@@ -5492,7 +5495,7 @@ span.label {
 .player-info ol >li {
   display: flex;
   padding: 0.3125rem 0.9375rem 0.3125rem 1.5625rem;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
   transition: all 0.2s ease-in-out 0s;
   height: 2rem;
   overflow: hidden;
@@ -5641,7 +5644,7 @@ span.label {
 .audio .cover {
   position: relative;
   flex-shrink: 0;
-  cursor: pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), pointer;
 }
 .audio .cover::before {
   content: "";
