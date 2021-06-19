@@ -5694,5 +5694,53 @@ span.label {
           animation-play-state: running;
 }
 a {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), auto;
+}
+a:active {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rsnya.cur"), auto;
+}
+img {
   cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), auto !important;
+}
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rsusuchoose.cur"), auto;
+}
+p {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+li {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+pre {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+label {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+input.vnick {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+input.vmail {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+input.vlink {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+textarea.veditor {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+a.btn {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), auto !important;
+}
+div.emojis.btn {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), auto !important;
+}
+div.preview.btn {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), auto !important;
+}
+span.item {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto;
+}
+div.excerpt {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rshandwriting.cur"), auto !important;
 }
