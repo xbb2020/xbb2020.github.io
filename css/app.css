@@ -1304,7 +1304,7 @@ a {
   overflow-wrap: break-word;
   word-wrap: break-word;
   transition: all 0.2s ease-in-out 0s;
-  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur");
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"),default !important;
 }
 a:hover {
   border-bottom-color: var(--color-blue);
@@ -1315,7 +1315,7 @@ a::after {
   transition: all 0.4s ease-in-out 0s;
 }
 a:active {
-  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rsnya.cur");
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rsnya.cur"),default !important;
 }
 a,
 li,
