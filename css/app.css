@@ -1304,7 +1304,7 @@ a {
   overflow-wrap: break-word;
   word-wrap: break-word;
   transition: all 0.2s ease-in-out 0s;
-  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"),default !important;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur");
 }
 a:hover {
   border-bottom-color: var(--color-blue);
@@ -1315,7 +1315,7 @@ a::after {
   transition: all 0.4s ease-in-out 0s;
 }
 a:active {
-  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rsnya.cur"),default !important;
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rsnya.cur");
 }
 a,
 li,
@@ -5692,4 +5692,7 @@ span.label {
 .audio.playing .cover .disc {
   -webkit-animation-play-state: running;
           animation-play-state: running;
+}
+a {
+  cursor: url("https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.0/mousestyle/rschoose.cur"), auto !important;
 }
