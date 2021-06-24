@@ -170,10 +170,10 @@
 &lt;ins class=&#34;primary&#34;&gt;紫色下划线&lt;/ins&gt;&lt;br /&gt;
 &lt;ins class=&#34;wavy success&#34;&gt;绿色波浪线&lt;/ins&gt;&lt;br /&gt;
 &lt;ins class=&#34;dot warning&#34;&gt;黄色着重点&lt;/ins&gt;&lt;br /&gt;
-～～删除线～～&lt;br /&gt;
-~~ 红色删除线～～{.danger}&lt;br /&gt;
-== 荧光高亮 ==&lt;br /&gt;
-&lt;span class=&#34;rainbow&#34;&gt; 赤橙黄绿青蓝紫&lt;/span&gt;&lt;br /&gt;
+&lt;s&gt;删除线&lt;/s&gt;&lt;br /&gt;
+&lt;s class=&#34;danger&#34;&gt;红色删除线&lt;/s&gt;&lt;br /&gt;
+&lt;mark&gt;荧光高亮&lt;/mark&gt;&lt;br /&gt;
+&lt;span class=&#34;rainbow&#34;&gt;赤橙黄绿青蓝紫&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;red&#34;&gt;红色&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;pink&#34;&gt;粉色&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;orange&#34;&gt;橙色&lt;/span&gt;&lt;br /&gt;
