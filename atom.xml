@@ -228,7 +228,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li class=&#34;quiz fill&#34;&gt;
-&lt;p&gt;如果定义  &lt;code&gt;int e=8; double f=6.4, g=8.9;&lt;/code&gt; ，则表达式  &lt;code&gt;f+int (e/3*int (f+g)/2)%4&lt;/code&gt;  的值为 &lt;span class=&#34;gap&#34;&gt;9.4&lt;/span&gt;。&lt;/p&gt;
+&lt;p class=&#34;gap&#34;&gt;如果定义  &lt;code&gt;int e=8; double f=6.4, g=8.9;&lt;/code&gt; ，则表达式  &lt;code&gt;f+int (e/3*int (f+g)/2)%4&lt;/code&gt;  的值为 [9.4]。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注意运算顺序和数据类型&lt;br /&gt;
 &lt;span class=&#34;mistake&#34;&gt; 8.4&lt;/span&gt;&lt;/p&gt;
