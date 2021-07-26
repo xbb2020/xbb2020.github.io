@@ -1,0 +1,552 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="小白白" href="http://www.xbbcode.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="小白白" href="http://www.xbbcode.com/atom.xml" />
+<link rel="alternate" type="application/json" title="小白白" href="http://www.xbbcode.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/css/app.css?v=0.2.5">
+
+  
+
+<link rel="canonical" href="http://www.xbbcode.com/python%E5%9F%BA%E7%A1%80/">
+
+
+
+  <title>
+python 基础 - 重铸机器人荣光 |
+xbbCode = 小白白 = 藏宝库</title>
+<meta name="generator" content="Hexo 5.4.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">python 基础
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="创建时间：2021-07-22 09:45:02">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">发表于</span>
+    <time itemprop="dateCreated datePublished" datetime="2021-07-22T09:45:02+08:00">2021-07-22</time>
+  </span>
+  <span class="item" title="本文字数">
+    <span class="icon">
+      <i class="ic i-pen"></i>
+    </span>
+    <span class="text">本文字数</span>
+    <span>2.8k</span>
+    <span class="text">字</span>
+  </span>
+  <span class="item" title="阅读时长">
+    <span class="icon">
+      <i class="ic i-clock"></i>
+    </span>
+    <span class="text">阅读时长</span>
+    <span>3 分钟</span>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切换导航栏">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">xbbCode</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+          <img src="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.2/background/background20.webp">
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/" itemprop="item" rel="index" title="分类于 重铸机器人荣光"><span itemprop="name">重铸机器人荣光</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
+  <link itemprop="mainEntityOfPage" href="http://www.xbbcode.com/python%E5%9F%BA%E7%A1%80/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/images/avatar.jpg">
+    <meta itemprop="name" content="xiaobaibai">
+    <meta itemprop="description" content="藏宝库, 是小白白">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="小白白">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h1 id="python笔记"><a class="anchor" href="#python笔记">#</a> python 笔记</h1>
+<div class="note info">
+<p>因为 qq 机器人前期打算使用 python 开发，所以现在开始学 python</p>
+<p>大概会学到爬虫的部分</p>
+</div>
+<div class="note primary">
+<p>因为有其他语言基础所以大部分内容会是 python 和其他语言的区别</p>
+</div>
+<h2 id="变量"><a class="anchor" href="#变量">#</a> 变量</h2>
+<p>python 变量没有类型名</p>
+<figure class="highlight python"><figcaption data-lang="python"><span>输入函数</span></figcaption><table><tr><td data-num="1"></td><td><pre>a <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr></table></figure><figure class="highlight python"><figcaption data-lang="python"><span>类型</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token builtin">float</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token builtin">str</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token builtin">bool</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token builtin">int</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token builtin">chr</span><span class="token comment">#: 整数变为字符</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token builtin">ord</span><span class="token comment">#: 字符变为整数</span></pre></td></tr></table></figure><h2 id="运算符"><a class="anchor" href="#运算符">#</a> 运算符</h2>
+<figure class="highlight python"><figcaption data-lang="python"><span>运算符</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token operator">**</span> <span class="token comment">#指数</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token operator">~</span> <span class="token comment">#按位取反</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token operator">//</span> <span class="token comment">#整除 注意整除和除的关系</span></pre></td></tr><tr><td data-num="4"></td><td><pre>\<span class="token operator">|</span> <span class="token comment">#按位或</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">not</span> <span class="token keyword">or</span> <span class="token keyword">and</span> <span class="token comment">#非 或 与</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token operator">^</span> <span class="token comment">#按位异或</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token comment">#其他大部分与 c++ 相同</span></pre></td></tr></table></figure><h2 id="if"><a class="anchor" href="#if">#</a> if</h2>
+<p><s>长得很怪</s></p>
+<figure class="highlight python"><figcaption data-lang="python"><span>if语句</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span> true <span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">else</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">elif</span> true<span class="token punctuation">:</span></pre></td></tr><tr><td data-num="6"></td><td><pre>	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="for循环"><a class="anchor" href="#for循环">#</a> for 循环</h2>
+<p><s>看着很别扭</s></p>
+<figure class="highlight python"><figcaption data-lang="python"><span>for-in</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">#for-in</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">101</span><span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>	total <span class="token operator">+=</span> x</pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">#range</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">101</span><span class="token punctuation">)</span> <span class="token comment">#0 到 100</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">101</span><span class="token punctuation">)</span><span class="token comment">#1 到 100</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">101</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token comment">#1,3,5... 2 为步长</span></pre></td></tr></table></figure><figure class="highlight python"><figcaption data-lang="python"><span>while</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">#while</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="函数"><a class="anchor" href="#函数">#</a> 函数</h2>
+<figure class="highlight python"><figcaption data-lang="python"><span>def</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">def</span> <span class="token function">name</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>	<span class="token keyword">return</span> result</pre></td></tr></table></figure><h2 id="字符串"><a class="anchor" href="#字符串">#</a> 字符串</h2>
+<figure class="highlight python"><figcaption data-lang="python"><span>string</span></figcaption><table><tr><td data-num="1"></td><td><pre>s1 <span class="token operator">=</span> <span class="token string">'hello world'</span></pre></td></tr><tr><td data-num="2"></td><td><pre>s2 <span class="token operator">=</span> <span class="token string">"hello world"</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">print</span><span class="token punctuation">(</span>s2<span class="token punctuation">,</span>end<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token comment">#表示结尾为空字符，不换行</span></pre></td></tr><tr><td data-num="4"></td><td><pre>s3 <span class="token operator">=</span> <span class="token string">r'hello\n'</span><span class="token comment">#加 r 时转义字符不转换</span></pre></td></tr><tr><td data-num="5"></td><td><pre>s4 <span class="token operator">=</span> <span class="token string">'\141\142\x61\x62'</span><span class="token comment">#支持八进制 \141 十六进制 \x61</span></pre></td></tr><tr><td data-num="6"></td><td><pre>s5 <span class="token operator">=</span> <span class="token string">'\u9a86'</span><span class="token comment">#Unicode</span></pre></td></tr></table></figure><figure class="highlight python"><figcaption data-lang="python"><span>string运算</span></figcaption><table><tr><td data-num="1"></td><td><pre>s1 <span class="token operator">=</span> <span class="token string">'hello'</span><span class="token operator">+</span><span class="token string">' '</span><span class="token operator">+</span><span class="token string">'world'</span></pre></td></tr><tr><td data-num="2"></td><td><pre>s2 <span class="token operator">=</span> <span class="token string">'!'</span><span class="token operator">*</span><span class="token number">3</span> <span class="token comment">#允许乘法</span></pre></td></tr><tr><td data-num="3"></td><td><pre>s1 <span class="token operator">+=</span> S2</pre></td></tr><tr><td data-num="4"></td><td><pre>s2 <span class="token operator">*=</span> <span class="token number">3</span></pre></td></tr><tr><td data-num="5"></td><td><pre>s3 <span class="token operator">=</span> <span class="token string">'helloworld'</span></pre></td></tr><tr><td data-num="6"></td><td><pre>s4 <span class="token operator">=</span> <span class="token string">'helloworld'</span></pre></td></tr><tr><td data-num="7"></td><td><pre>s5 <span class="token operator">=</span> s4</pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token comment">#比较内容</span></pre></td></tr><tr><td data-num="9"></td><td><pre>s1 <span class="token operator">==</span> s2 <span class="token comment">#true</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token comment">#比较地址</span></pre></td></tr><tr><td data-num="11"></td><td><pre>s1 <span class="token keyword">is</span> s2 <span class="token comment">#false</span></pre></td></tr><tr><td data-num="12"></td><td><pre>s2 <span class="token keyword">is</span> s3 <span class="token comment">#true</span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token comment">#成员运算</span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token string">'wo'</span> <span class="token keyword">in</span> s3 <span class="token comment">#true</span></pre></td></tr><tr><td data-num="15"></td><td><pre><span class="token comment">#长度</span></pre></td></tr><tr><td data-num="16"></td><td><pre><span class="token builtin">len</span><span class="token punctuation">(</span>s1<span class="token punctuation">)</span></pre></td></tr></table></figure><h3 id="索引"><a class="anchor" href="#索引">#</a> 索引</h3>
+<p>假设字符串长度为 N<br />
+ 则下标 0 到 N-1 为正向索引<br />
+ - 1 到 - N 为反向索引<br />
+ s1 [N-1] 和 s1 [-1] 都是字符串的最后一个字符</p>
+<h3 id="切片"><a class="anchor" href="#切片">#</a> 切片</h3>
+<p>s1 [2:5]：下标 2 到 5 的正向切片<br />
+ s1 [-7:-4]：下标 - 7 到 - 4 的正向切片<br />
+ s1 [2:]：下标 2 到最后的正向切片<br />
+ s1 [-7:]：下标 - 7 到最后的正向切片<br />
+ s1 [2::2]：下标 2 到最后，间隔一个字符取一次的正向切片<br />
+ s1 [7:1:-1]：下标 7 到 1 的负向切片</p>
+<h3 id="遍历字符串"><a class="anchor" href="#遍历字符串">#</a> 遍历字符串</h3>
+<figure class="highlight python"><figcaption data-lang="python"><span>遍历字符串</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">for</span> index <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>s1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>	<span class="token keyword">print</span><span class="token punctuation">(</span>s1<span class="token punctuation">[</span>index<span class="token punctuation">]</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">for</span> ch <span class="token keyword">in</span> s1<span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>	<span class="token keyword">print</span><span class="token punctuation">(</span>sh<span class="token punctuation">)</span></pre></td></tr></table></figure><h3 id="格式控制"><a class="anchor" href="#格式控制">#</a> 格式控制</h3>
+<p>在字符串前加 f，字符串中的 {变量名} 会被自动替换，也可以进一步控制格式<br />
+<img data-src="http://cdn.jsdelivr.net/gh/xbb2020/cdn@4.3/question/zwf.png" alt="占位符" title="占位符" /></p>
+<h2 id="列表"><a class="anchor" href="#列表">#</a> 列表</h2>
+<figure class="highlight python"><figcaption data-lang="python"><span>list</span></figcaption><table><tr><td data-num="1"></td><td><pre>item1 <span class="token operator">=</span> <span class="token punctuation">[</span>element1<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span></pre></td></tr><tr><td data-num="2"></td><td><pre>item2 <span class="token operator">=</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">#列表的运算和字符串类似</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">#添加和删除</span></pre></td></tr><tr><td data-num="5"></td><td><pre>item1<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="6"></td><td><pre>item1<span class="token punctuation">.</span>insert<span class="token punctuation">(</span>pos<span class="token punctuation">,</span><span class="token string">''</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="7"></td><td><pre>item1<span class="token punctuation">.</span>remove<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="8"></td><td><pre>item<span class="token punctuation">.</span>pop<span class="token punctuation">(</span>pos<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token comment">#清空</span></pre></td></tr><tr><td data-num="10"></td><td><pre>item<span class="token punctuation">.</span>clear<span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token comment">#查找和计数</span></pre></td></tr><tr><td data-num="12"></td><td><pre>item<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">,</span>pos<span class="token punctuation">)</span> <span class="token comment">#在某个索引之后查找</span></pre></td></tr><tr><td data-num="13"></td><td><pre>item<span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token comment">#计数</span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token comment">#排序</span></pre></td></tr><tr><td data-num="15"></td><td><pre>item<span class="token punctuation">.</span>sort<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#排序</span></pre></td></tr><tr><td data-num="16"></td><td><pre>item<span class="token punctuation">.</span>reverse<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#反转</span></pre></td></tr></table></figure><h2 id="元组"><a class="anchor" href="#元组">#</a> 元组</h2>
+<p>和列表近似，但元素在定义后不能修改</p>
+<figure class="highlight python"><figcaption data-lang="python"><span>元组</span></figcaption><table><tr><td data-num="1"></td><td><pre>t1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="集合"><a class="anchor" href="#集合">#</a> 集合</h2>
+<figure class="highlight python"><figcaption data-lang="python"><span>set</span></figcaption><table><tr><td data-num="1"></td><td><pre>set1 <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">#成员运算</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">in</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">#交并差 对称差</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token operator">&amp;</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token operator">|</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token operator">-</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token operator">^</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token comment">#比较</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token comment">#集合的包含关系</span></pre></td></tr></table></figure><h2 id="字典"><a class="anchor" href="#字典">#</a> 字典</h2>
+<ul>
+<li>存储键值对</li>
+</ul>
+<figure class="highlight python"><figcaption data-lang="python"><span>字典</span></figcaption><table><tr><td data-num="1"></td><td><pre>xinhua <span class="token operator">=</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>	<span class="token string">'a'</span><span class="token punctuation">:</span><span class="token string">'aa'</span><span class="token punctuation">,</span><span class="token string">'b'</span><span class="token punctuation">:</span><span class="token string">"bb"</span><span class="token punctuation">,</span><span class="token string">'c'</span><span class="token punctuation">:</span><span class="token string">'cc'</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">#构造</span></pre></td></tr><tr><td data-num="5"></td><td><pre>item1 <span class="token operator">=</span> <span class="token builtin">dict</span><span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">,</span>age<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token comment">#字典生成式</span></pre></td></tr><tr><td data-num="7"></td><td><pre>item <span class="token operator">=</span> <span class="token punctuation">&#123;</span>x<span class="token punctuation">:</span>x <span class="token operator">**</span> <span class="token number">3</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">6</span>	<span class="token punctuation">)</span><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token comment">#存入新内容或修改原有内容</span></pre></td></tr><tr><td data-num="9"></td><td><pre>item<span class="token punctuation">[</span><span class="token string">'key'</span><span class="token punctuation">]</span> <span class="token operator">=</span> value</pre></td></tr></table></figure><h2 id="对象"><a class="anchor" href="#对象">#</a> 对象</h2>
+<figure class="highlight python"><figcaption data-lang="python"><span>class</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">name</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>	<span class="token comment">#方法的第一个参数通常都为 self, 它表示对象本身</span></pre></td></tr><tr><td data-num="3"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">play</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="5"></td><td><pre>	<span class="token comment">#初始化方法</span></pre></td></tr><tr><td data-num="6"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="7"></td><td><pre>		self<span class="token punctuation">.</span>x<span class="token operator">=</span>x</pre></td></tr><tr><td data-num="8"></td><td><pre>		self<span class="token punctuation">.</span>y<span class="token operator">=</span>y</pre></td></tr><tr><td data-num="9"></td><td><pre>	<span class="token comment">#打印类方法</span></pre></td></tr><tr><td data-num="10"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">__repr__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="11"></td><td><pre>		<span class="token keyword">return</span> <span class="token string-interpolation"><span class="token string">f'</span><span class="token interpolation"><span class="token punctuation">&#123;</span>self<span class="token punctuation">.</span>x<span class="token punctuation">&#125;</span></span><span class="token string">:x </span><span class="token interpolation"><span class="token punctuation">&#123;</span>self<span class="token punctuation">.</span>y<span class="token punctuation">&#125;</span></span><span class="token string">:y'</span></span></pre></td></tr><tr><td data-num="12"></td><td><pre>	<span class="token comment">#属性</span></pre></td></tr><tr><td data-num="13"></td><td><pre>	_开头时为保护</pre></td></tr><tr><td data-num="14"></td><td><pre>	__开头时为私有</pre></td></tr><tr><td data-num="15"></td><td><pre>	<span class="token comment">#getter and setter</span></pre></td></tr><tr><td data-num="16"></td><td><pre>	<span class="token decorator annotation punctuation">@property</span></pre></td></tr><tr><td data-num="17"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">x</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="18"></td><td><pre>		<span class="token keyword">return</span> self<span class="token punctuation">.</span>__x</pre></td></tr><tr><td data-num="19"></td><td><pre>	<span class="token decorator annotation punctuation">@name<span class="token punctuation">.</span>setter</span></pre></td></tr><tr><td data-num="20"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">x</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span>x<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="21"></td><td><pre>		self<span class="token punctuation">.</span>__x <span class="token operator">=</span> x <span class="token keyword">or</span> <span class="token string">'a'</span></pre></td></tr><tr><td data-num="22"></td><td><pre>	<span class="token comment">#静态方法和类方法</span></pre></td></tr><tr><td data-num="23"></td><td><pre>	<span class="token decorator annotation punctuation">@staticmethod</span></pre></td></tr><tr><td data-num="24"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">name</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="25"></td><td><pre>	<span class="token decorator annotation punctuation">@classmethod</span></pre></td></tr><tr><td data-num="26"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">name</span><span class="token punctuation">(</span>cls<span class="token punctuation">,</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="27"></td><td><pre>	<span class="token comment">#可以直接使用类名。方法名调用静态方法和类方法，区别是类方法的第一个参数是类</span></pre></td></tr></table></figure><h2 id="继承和多态"><a class="anchor" href="#继承和多态">#</a> 继承和多态</h2>
+<figure class="highlight python"><figcaption data-lang="python"><span>继承和多态</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">class</span> <span class="token class-name">child</span><span class="token punctuation">(</span>father<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>	<span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>	<span class="token builtin">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>__init__<span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">#子类继承并修改父类方法即为多态</span></pre></td></tr></table></figure><h2 id="装饰器"><a class="anchor" href="#装饰器">#</a> 装饰器</h2>
+<ul>
+<li>作用：减少冗余代码</li>
+</ul>
+<figure class="highlight python"><figcaption data-lang="python"><span>装饰器</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">import</span> random</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">import</span> time</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">from</span> functools <span class="token keyword">import</span> wraps</pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">def</span> <span class="token function">record_time</span><span class="token punctuation">(</span>func<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token decorator annotation punctuation">@wraps</span><span class="token punctuation">(</span>func<span class="token punctuation">)</span><span class="token comment">#此时可以用__wrapped__方法取消装饰器</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token keyword">def</span> <span class="token function">wrapper</span><span class="token punctuation">(</span><span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="8"></td><td><pre>        start <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="9"></td><td><pre>        result <span class="token operator">=</span> func<span class="token punctuation">(</span><span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="10"></td><td><pre>        end <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="11"></td><td><pre>        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f'</span><span class="token interpolation"><span class="token punctuation">&#123;</span>func<span class="token punctuation">.</span>__name__<span class="token punctuation">&#125;</span></span><span class="token string">执行时间: </span><span class="token interpolation"><span class="token punctuation">&#123;</span>end <span class="token operator">-</span> start<span class="token punctuation">:</span><span class="token format-spec">.3f</span><span class="token punctuation">&#125;</span></span><span class="token string">秒'</span></span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        <span class="token keyword">return</span> result</pre></td></tr><tr><td data-num="13"></td><td><pre>	<span class="token keyword">return</span> wrapper</pre></td></tr><tr><td data-num="14"></td><td><pre></pre></td></tr><tr><td data-num="15"></td><td><pre><span class="token decorator annotation punctuation">@record_time</span><span class="token comment">#此时方法被装饰成返回的 wrapper 方法</span></pre></td></tr><tr><td data-num="16"></td><td><pre><span class="token keyword">def</span> <span class="token function">download</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="17"></td><td><pre>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f'开始下载</span><span class="token interpolation"><span class="token punctuation">&#123;</span>filename<span class="token punctuation">&#125;</span></span><span class="token string">.'</span></span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="18"></td><td><pre>    time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="19"></td><td><pre>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f'</span><span class="token interpolation"><span class="token punctuation">&#123;</span>filename<span class="token punctuation">&#125;</span></span><span class="token string">下载完成.'</span></span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="20"></td><td><pre></pre></td></tr><tr><td data-num="21"></td><td><pre></pre></td></tr><tr><td data-num="22"></td><td><pre><span class="token decorator annotation punctuation">@record_time</span></pre></td></tr><tr><td data-num="23"></td><td><pre><span class="token keyword">def</span> <span class="token function">upload</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="24"></td><td><pre>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f'开始上传</span><span class="token interpolation"><span class="token punctuation">&#123;</span>filename<span class="token punctuation">&#125;</span></span><span class="token string">.'</span></span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="25"></td><td><pre>    time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="26"></td><td><pre>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f'</span><span class="token interpolation"><span class="token punctuation">&#123;</span>filename<span class="token punctuation">&#125;</span></span><span class="token string">上传完成.'</span></span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="27"></td><td><pre></pre></td></tr><tr><td data-num="28"></td><td><pre></pre></td></tr><tr><td data-num="29"></td><td><pre>download<span class="token punctuation">(</span><span class="token string">'MySQL从删库到跑路.avi'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="30"></td><td><pre>upload<span class="token punctuation">(</span><span class="token string">'Python从入门到住院.pdf'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="31"></td><td><pre><span class="token comment"># 取消装饰器</span></pre></td></tr><tr><td data-num="32"></td><td><pre>download<span class="token punctuation">.</span>__wrapped__<span class="token punctuation">(</span><span class="token string">'MySQL必知必会.pdf'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="33"></td><td><pre>upload <span class="token operator">=</span> upload<span class="token punctuation">.</span>__wrapped__</pre></td></tr><tr><td data-num="34"></td><td><pre>upload<span class="token punctuation">(</span><span class="token string">'Python从新手到大师.pdf'</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="常用标准库函数"><a class="anchor" href="#常用标准库函数">#</a> 常用标准库函数</h2>
+<div class="note warning">
+<p><span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xNTg4NzQyMjg=">阅读原文</span></p>
+</div>
+
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2021-07-22 12:40:18" itemprop="dateModified" datetime="2021-07-22T12:40:18+08:00">2021-07-22</time>
+  </span>
+  <span id="python基础/" class="item leancloud_visitors" data-flag-title="python 基础" title="阅读次数">
+      <span class="icon">
+        <i class="ic i-eye"></i>
+      </span>
+      <span class="text">阅读次数</span>
+      <span class="leancloud-visitors-count"></span>
+      <span class="text">次</span>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> 赞赏</button>
+  <p>请我喝[茶]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/images/wechatpay.png" alt="xiaobaibai 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div>
+        <img data-src="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/images/alipay.png" alt="xiaobaibai 支付宝">
+        <p>支付宝</p>
+      </div>
+      
+      <div>
+        <img data-src="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/images/paypal.png" alt="xiaobaibai 贝宝">
+        <p>贝宝</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>本文作者： </strong>xiaobaibai <i class="ic i-at"><em>@</em></i>小白白
+  </li>
+  <li class="link">
+    <strong>本文链接：</strong>
+    <a href="http://www.xbbcode.com/python%E5%9F%BA%E7%A1%80/" title="python 基础">http://www.xbbcode.com/python基础/</a>
+  </li>
+  <li class="license">
+    <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;xbb2020&#x2F;cdn@4.0&#x2F;background_1&#x2F;background03.webp" title="第一周">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> 学习笔记</span>
+  <h3>第一周</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+      
+
+  <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;xbb2020&#x2F;cdn@4.0&#x2F;background_1&#x2F;background03.webp" title="第二周">
+  <span class="type">下一篇</span>
+  <span class="category"><i class="ic i-flag"></i> 学习笔记</span>
+  <h3>第二周</h3>
+  </a>
+
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#python%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text"> python 笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">1.1.</span> <span class="toc-text"> 变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.2.</span> <span class="toc-text"> 运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#if"><span class="toc-number">1.3.</span> <span class="toc-text"> if</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#for%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.4.</span> <span class="toc-text"> for 循环</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%BD%E6%95%B0"><span class="toc-number">1.5.</span> <span class="toc-text"> 函数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.6.</span> <span class="toc-text"> 字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95"><span class="toc-number">1.6.1.</span> <span class="toc-text"> 索引</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%87%E7%89%87"><span class="toc-number">1.6.2.</span> <span class="toc-text"> 切片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%81%8D%E5%8E%86%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.6.3.</span> <span class="toc-text"> 遍历字符串</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%BC%E5%BC%8F%E6%8E%A7%E5%88%B6"><span class="toc-number">1.6.4.</span> <span class="toc-text"> 格式控制</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8"><span class="toc-number">1.7.</span> <span class="toc-text"> 列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%83%E7%BB%84"><span class="toc-number">1.8.</span> <span class="toc-text"> 元组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9B%86%E5%90%88"><span class="toc-number">1.9.</span> <span class="toc-text"> 集合</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%97%E5%85%B8"><span class="toc-number">1.10.</span> <span class="toc-text"> 字典</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.11.</span> <span class="toc-text"> 对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A7%E6%89%BF%E5%92%8C%E5%A4%9A%E6%80%81"><span class="toc-number">1.12.</span> <span class="toc-text"> 继承和多态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A3%85%E9%A5%B0%E5%99%A8"><span class="toc-number">1.13.</span> <span class="toc-text"> 装饰器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E6%A0%87%E5%87%86%E5%BA%93%E5%87%BD%E6%95%B0"><span class="toc-number">1.14.</span> <span class="toc-text"> 常用标准库函数</span></a></li></ol></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+        <ul>
+          <li class="active"><a href="/python%E5%9F%BA%E7%A1%80/" rel="bookmark" title="python基础">python基础</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="站点概览">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="xiaobaibai"
+      data-src="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/images/avatar.jpg">
+  <p class="name" itemprop="name">xiaobaibai</p>
+  <div class="description" itemprop="description">是小白白</div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">6</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">4</span>
+        <span class="name">分类</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL3hiYjIwMjA=" title="https:&#x2F;&#x2F;github.com&#x2F;xbb2020"><i class="ic i-github"></i></span>
+      <span class="exturl item zhihu" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS94aWFvLWJhaS1iYWktMTAtNjQ=" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;xiao-bai-bai-10-64"><i class="ic i-zhihu"></i></span>
+      <span class="exturl item music" data-url="aHR0cHM6Ly9tdXNpYy4xNjMuY29tLyMvdXNlci9ob21lP2lkPTQyMjgzMDUxOA==" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;user&#x2F;home?id&#x3D;422830518"><i class="ic i-cloud-music"></i></span>
+      <span class="exturl item weibo" data-url="aHR0cHM6Ly93ZWliby5jb20vNjMyNjAyNzk2Nw==" title="https:&#x2F;&#x2F;weibo.com&#x2F;6326027967"><i class="ic i-weibo"></i></span>
+      <span class="exturl item bilibili" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMzU0MTU5Nw==" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;3541597"><i class="ic i-link"></i></span>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>文章</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a>
+  </li>
+
+  </ul>
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+        <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+        <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>随机文章</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/hello-world/" title="Hello World">Hello World</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/" title="分类于 主题相关">主题相关</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/" title="分类于 测试">测试</a>
+</div>
+
+    <span><a href="/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E6%A0%B7%E5%BC%8F%E5%8F%8A%E7%89%B9%E6%95%88%E6%B5%8B%E8%AF%95/" title="样式及特效指南">样式及特效指南</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/" title="分类于 主题相关">主题相关</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/" title="分类于 测试">测试</a>
+</div>
+
+    <span><a href="/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/" title="转义字符">转义字符</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/" title="分类于 重铸机器人荣光">重铸机器人荣光</a>
+</div>
+
+    <span><a href="/python%E5%9F%BA%E7%A1%80/" title="python基础">python基础</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="分类于 学习笔记">学习笔记</a>
+</div>
+
+    <span><a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/" title="第二周">第二周</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="分类于 学习笔记">学习笔记</a>
+</div>
+
+    <span><a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/" title="第一周">第一周</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>最新评论</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 
+    <span itemprop="copyrightYear">2021</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">xiaobaibai @ xbbCode</span>
+  </div>
+  <div class="count">
+    <span class="post-meta-item-icon">
+      <i class="ic i-chart-area"></i>
+    </span>
+    <span title="站点总字数">20k 字</span>
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="ic i-coffee"></i>
+    </span>
+    <span title="站点阅读时长">18 分钟</span>
+  </div>
+  <div class="powered-by">
+    基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: 'python基础/',
+    favicon: {
+      show: "代号：小白白",
+      hide: "记得回来~"
+    },
+    search : {
+      placeholder: "文章搜索",
+      empty: "关于 「 ${query} 」，什么也没搜到",
+      stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    valine: true,fancybox: true,copyright: '复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="//cdn.jsdelivr.net/gh/xbb2020/xbb2020.github.io@latest/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
