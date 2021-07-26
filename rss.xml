@@ -71,11 +71,11 @@
 &lt;h2 id=&#34;相关链接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#相关链接&#34;&gt;#&lt;/a&gt; 相关链接&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MDYyMzczNi9hcnRpY2xlL2RldGFpbHMvOTgwOTc3MDg=&#34;&gt;https://blog.csdn.net/weixin_40623736/article/details/98097708&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;下周学习内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下周学习内容&#34;&gt;#&lt;/a&gt; 下周学习内容&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[] springboot 底层原理&lt;/li&gt;
-&lt;li&gt;[] docker&lt;/li&gt;
-&lt;li&gt;[] python&lt;/li&gt;
-&lt;li&gt;[] 算法&lt;/li&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_3&#34;&gt; springboot 底层原理&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; docker&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; python&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 算法&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
