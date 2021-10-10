@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://42.193.99.27</id>
+    <id>http://www.xbbcode.com</id>
     <title>小白白</title>
     <subtitle>藏宝库</subtitle>
-    <icon>http://42.193.99.27/images/favicon.ico</icon>
-    <link href="http://42.193.99.27" />
+    <icon>http://www.xbbcode.com/images/favicon.ico</icon>
+    <link href="http://www.xbbcode.com" />
     <author>
       <name>xiaobaibai</name>
     </author>
     <updated>2021-07-26T01:49:07.000Z</updated>
     <category term="xiaobaibai" />
     <entry>
-        <id>http://42.193.99.27/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/</id>
+        <id>http://www.xbbcode.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/</id>
         <title>第二周</title>
-        <link rel="alternate" href="http://42.193.99.27/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/"/>
+        <link rel="alternate" href="http://www.xbbcode.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/"/>
         <content type="html">&lt;h1 id=&#34;第二周学习笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二周学习笔记&#34;&gt;#&lt;/a&gt; 第二周学习笔记&lt;/h1&gt;
 &lt;h2 id=&#34;学习内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容&#34;&gt;#&lt;/a&gt; 学习内容&lt;/h2&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
@@ -73,13 +73,13 @@
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 算法&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="学习笔记" scheme="http://42.193.99.27/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="学习笔记" scheme="http://www.xbbcode.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <updated>2021-07-26T01:49:07.000Z</updated>
     </entry>
     <entry>
-        <id>http://42.193.99.27/python%E5%9F%BA%E7%A1%80/</id>
+        <id>http://www.xbbcode.com/python%E5%9F%BA%E7%A1%80/</id>
         <title>python基础</title>
-        <link rel="alternate" href="http://42.193.99.27/python%E5%9F%BA%E7%A1%80/"/>
+        <link rel="alternate" href="http://www.xbbcode.com/python%E5%9F%BA%E7%A1%80/"/>
         <content type="html">&lt;h1 id=&#34;python笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python笔记&#34;&gt;#&lt;/a&gt; python 笔记&lt;/h1&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;因为 qq 机器人前期打算使用 python 开发，所以现在开始学 python&lt;/p&gt;
@@ -132,13 +132,13 @@
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xNTg4NzQyMjg=&#34;&gt;阅读原文&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 </content>
-        <category term="重铸机器人荣光" scheme="http://42.193.99.27/categories/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/" />
+        <category term="重铸机器人荣光" scheme="http://www.xbbcode.com/categories/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/" />
         <updated>2021-07-22T01:45:02.000Z</updated>
     </entry>
     <entry>
-        <id>http://42.193.99.27/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/</id>
+        <id>http://www.xbbcode.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/</id>
         <title>第一周</title>
-        <link rel="alternate" href="http://42.193.99.27/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/"/>
+        <link rel="alternate" href="http://www.xbbcode.com/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/"/>
         <content type="html">&lt;h1 id=&#34;第一周学习笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一周学习笔记&#34;&gt;#&lt;/a&gt; 第一周学习笔记&lt;/h1&gt;
 &lt;h2 id=&#34;学习内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习内容&#34;&gt;#&lt;/a&gt; 学习内容&lt;/h2&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
@@ -220,13 +220,13 @@
 &lt;li&gt;算法&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="学习笔记" scheme="http://42.193.99.27/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="学习笔记" scheme="http://www.xbbcode.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <updated>2021-07-18T07:25:43.000Z</updated>
     </entry>
     <entry>
-        <id>http://42.193.99.27/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/</id>
+        <id>http://www.xbbcode.com/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/</id>
         <title>转义字符</title>
-        <link rel="alternate" href="http://42.193.99.27/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/"/>
+        <link rel="alternate" href="http://www.xbbcode.com/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/"/>
         <content type="html">&lt;h1 id=&#34;常用转义字符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用转义字符&#34;&gt;#&lt;/a&gt; 常用转义字符&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -272,14 +272,14 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="主题相关" scheme="http://42.193.99.27/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/" />
-        <category term="测试" scheme="http://42.193.99.27/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/" />
+        <category term="主题相关" scheme="http://www.xbbcode.com/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/" />
+        <category term="测试" scheme="http://www.xbbcode.com/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/" />
         <updated>2021-06-18T08:41:46.000Z</updated>
     </entry>
     <entry>
-        <id>http://42.193.99.27/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E6%A0%B7%E5%BC%8F%E5%8F%8A%E7%89%B9%E6%95%88%E6%B5%8B%E8%AF%95/</id>
+        <id>http://www.xbbcode.com/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E6%A0%B7%E5%BC%8F%E5%8F%8A%E7%89%B9%E6%95%88%E6%B5%8B%E8%AF%95/</id>
         <title>样式及特效指南</title>
-        <link rel="alternate" href="http://42.193.99.27/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E6%A0%B7%E5%BC%8F%E5%8F%8A%E7%89%B9%E6%95%88%E6%B5%8B%E8%AF%95/"/>
+        <link rel="alternate" href="http://www.xbbcode.com/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/%E6%A0%B7%E5%BC%8F%E5%8F%8A%E7%89%B9%E6%95%88%E6%B5%8B%E8%AF%95/"/>
         <content type="html">&lt;h1 id=&#34;显示图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#显示图片&#34;&gt;#&lt;/a&gt; 显示图片&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://tva3.sinaimg.cn/large/6833939bly1gicis081o9j20zk0m8dmr.jpg&#34; alt=&#34;这里是 alt&#34; title=&#34;这里是 title&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;links-链接块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#links-链接块&#34;&gt;#&lt;/a&gt; links 链接块&lt;/h1&gt;
@@ -311,13 +311,13 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;% links %&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- site: #站点名称&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  owner: #管理员名字&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  url: #站点网址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  desc: #简短描述默认url&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  image: #一张图片 默认404.png&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  color: #颜色代码 默认666&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;% endlinks %&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;xiaobaibai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93d3cueGJiY29kZS5jb20=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn@latest/img/avatar.jpg&#34;&gt;&lt;/span&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;% links %&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- site: #站点名称&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  owner: #管理员名字&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  url: #站点网址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  desc: #简短描述默认url&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  image: #一张图片 默认404.png&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  color: #颜色代码 默认666&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;% endlinks %&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;xiaobaibai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.xbbcode.com&#34; class=&#34;image&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn@latest/img/avatar.jpg&#34;&gt;&lt;/a&gt;
           &lt;div class=&#34;info&#34;&gt;
-          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93d3cueGJiY29kZS5jb20=&#34;&gt;xbbCode&lt;/span&gt;
+          &lt;a href=&#34;https://www.xbbcode.com&#34; class=&#34;title&#34;&gt;xbbCode&lt;/a&gt;
           &lt;p class=&#34;desc&#34;&gt;测试用的链接块&lt;/p&gt;
           &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h1 id=&#34;code代码块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#code代码块&#34;&gt;#&lt;/a&gt; code 代码块&lt;/h1&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;span&gt;格式&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;language title url urlName 高亮行mark:start-end,start-end 命令行提示符command:(&#34;[root@localhost] $&#34;:1,9-10||&#34;[admin@remotehost] #&#34;:4-6)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;test&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy54YmJjb2RlLmNvbQ==&#34;&gt;参考链接&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;java&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;util&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;nextLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello world&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;题目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#题目&#34;&gt;#&lt;/a&gt; 题目&lt;/h1&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;span&gt;格式&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;language title url urlName 高亮行mark:start-end,start-end 命令行提示符command:(&#34;[root@localhost] $&#34;:1,9-10||&#34;[admin@remotehost] #&#34;:4-6)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;test&lt;/span&gt;&lt;a href=&#34;http://www.xbbcode.com&#34;&gt;参考链接&lt;/a&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;java&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;util&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;nextLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello world&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;题目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#题目&#34;&gt;#&lt;/a&gt; 题目&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;quiz: true&lt;/li&gt;
 &lt;/ul&gt;
@@ -436,9 +436,9 @@ H&lt;sub&gt;2&lt;/sub&gt;0&lt;br /&gt;
 &lt;p&gt;这里是卡片 1 的内容&lt;br /&gt;
 &lt;strong&gt;加粗&lt;/strong&gt;&lt;br /&gt;
 &lt;span class=&#34;label success&#34;&gt; success&lt;/span&gt;&lt;br /&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;xiaobaibai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93d3cueGJiY29kZS5jb20=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn@latest/img/avatar.jpg&#34;&gt;&lt;/span&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;xiaobaibai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.xbbcode.com&#34; class=&#34;image&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn@latest/img/avatar.jpg&#34;&gt;&lt;/a&gt;
           &lt;div class=&#34;info&#34;&gt;
-          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93d3cueGJiY29kZS5jb20=&#34;&gt;xbbCode&lt;/span&gt;
+          &lt;a href=&#34;https://www.xbbcode.com&#34; class=&#34;title&#34;&gt;xbbCode&lt;/a&gt;
           &lt;p class=&#34;desc&#34;&gt;测试用的链接块&lt;/p&gt;
           &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -483,9 +483,9 @@ H&lt;sub&gt;2&lt;/sub&gt;0&lt;br /&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;details class=&#34;success&#34;&gt;&lt;summary&gt;绿色&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;xiaobaibai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93d3cueGJiY29kZS5jb20=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn@latest/img/avatar.jpg&#34;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;xiaobaibai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.xbbcode.com&#34; class=&#34;image&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn@latest/img/avatar.jpg&#34;&gt;&lt;/a&gt;
           &lt;div class=&#34;info&#34;&gt;
-          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93d3cueGJiY29kZS5jb20=&#34;&gt;xbbCode&lt;/span&gt;
+          &lt;a href=&#34;https://www.xbbcode.com&#34; class=&#34;title&#34;&gt;xbbCode&lt;/a&gt;
           &lt;p class=&#34;desc&#34;&gt;测试用的链接块&lt;/p&gt;
           &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
@@ -520,14 +520,14 @@ H&lt;sub&gt;2&lt;/sub&gt;0&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy9zcGVjaWFsLw==&#34;&gt;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/special/&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 </content>
-        <category term="主题相关" scheme="http://42.193.99.27/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/" />
-        <category term="测试" scheme="http://42.193.99.27/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/" />
+        <category term="主题相关" scheme="http://www.xbbcode.com/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/" />
+        <category term="测试" scheme="http://www.xbbcode.com/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/" />
         <updated>2021-06-18T03:15:25.000Z</updated>
     </entry>
     <entry>
-        <id>http://42.193.99.27/hello-world/</id>
+        <id>http://www.xbbcode.com/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://42.193.99.27/hello-world/"/>
+        <link rel="alternate" href="http://www.xbbcode.com/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
