@@ -68,7 +68,7 @@
 &lt;li&gt;FilenameFilter 接口&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;boolean&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;accept&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;File&lt;/span&gt; dir&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; name&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如果向 list () 方法传入 FilenameFilter 对象，则在调用时，参数会不断地调用对象的 accept () 方法，将目录中的文件名依次作为 name，dir 为调用 list 的当前对象，当方法返回值为 true 时，文件就会被存入返回值数组&lt;br /&gt;
- accept 方法中通常会判断文件名是否符合某个条件（正则表达式）&lt;/p&gt;
+ accept 方法中通常会判断文件名是否符合某个条件 **（正则表达式）**&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Scanner 类&lt;/li&gt;
 &lt;/ul&gt;
