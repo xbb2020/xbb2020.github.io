@@ -8,8 +8,81 @@
     <author>
       <name>xiaobaibai</name>
     </author>
-    <updated>2021-12-18T10:55:19.000Z</updated>
+    <updated>2021-12-19T02:35:02.000Z</updated>
     <category term="xiaobaibai" />
+    <entry>
+        <id>http://www.xbbcode.com/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95%E5%A4%8D%E4%B9%A0/</id>
+        <title>数据结构简单复习</title>
+        <link rel="alternate" href="http://www.xbbcode.com/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95%E5%A4%8D%E4%B9%A0/"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;按照考点简单复习下数据结构与算法&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;数据结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据结构&#34;&gt;#&lt;/a&gt; 数据结构&lt;/h1&gt;
+&lt;h2 id=&#34;考点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考点&#34;&gt;#&lt;/a&gt; 考点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;线性表：顺序表，链表（考过双链表）&lt;/li&gt;
+&lt;li&gt;栈和队列：多考选择填空：顺序栈，链式栈；循环队列，链式队列&lt;/li&gt;
+&lt;li&gt;递归：代码，应该要和其他题一起考&lt;/li&gt;
+&lt;li&gt;树：遍历，理解线索化二叉树的概念，理解霍夫曼树&lt;/li&gt;
+&lt;li&gt;图：dfs，bfs 的代码，掌握最小生成树算法，两种最短路径算法&lt;/li&gt;
+&lt;li&gt;查找：顺序查找，折半查找（递归和迭代两种）的代码，平衡二叉树和哈希表理解&lt;/li&gt;
+&lt;li&gt;排序：插入，冒泡，简单选择，shell，快排掌握代码，归并和堆排序掌握操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开始复习了哦~&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始复习了哦~&#34;&gt;#&lt;/a&gt; 开始复习了哦～&lt;/h2&gt;
+&lt;h3 id=&#34;线性表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性表&#34;&gt;#&lt;/a&gt; 线性表&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/1.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/2.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+{.gallery}&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;顺序表的四种操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;构造&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-C++&#34;&gt;typedef struct SqList&amp;#123;
+    int data[Size];
+    int length;
+&amp;#125;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;插入&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;判断插入位置是否合理&lt;/li&gt;
+&lt;li&gt;检查顺序表是否已满&lt;/li&gt;
+&lt;li&gt;将后面的元素依次后移&lt;/li&gt;
+&lt;li&gt;将元素插入空位&lt;/li&gt;
+&lt;li&gt;length++；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;删除&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;判断位置合理&lt;/li&gt;
+&lt;li&gt;将后方元素依次前移&lt;/li&gt;
+&lt;li&gt;length--；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;查找&#34;&gt;
+&lt;p&gt;找就完了&lt;/p&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;&lt;ruby&gt;待补充&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;没有了&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/4.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;链式表的操作
+&lt;ul&gt;
+&lt;li&gt;构造&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/6.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;查找：一直 next，直到符合条件&lt;/li&gt;
+&lt;li&gt;插入：&lt;/li&gt;
+&lt;li&gt;删除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="期末复习" scheme="http://www.xbbcode.com/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" />
+        <updated>2021-12-19T02:35:02.000Z</updated>
+    </entry>
     <entry>
         <id>http://www.xbbcode.com/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/java%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
         <title>java期末复习</title>
