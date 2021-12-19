@@ -74,7 +74,7 @@ xbbCode = 小白白 = 藏宝库</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>400</span>
+    <span>813</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -115,12 +115,12 @@ xbbCode = 小白白 = 藏宝库</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background18.webp"></li>
-          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background23.webp"></li>
+          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background35.webp"></li>
+          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background10.webp"></li>
           <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background15.webp"></li>
           <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background20.webp"></li>
-          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background06.webp"></li>
-          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background12.webp"></li>
+          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background18.webp"></li>
+          <li class="item" data-background-image="https://cdn.jsdelivr.net/gh/xbb2020/cdn@4.1/Rimage/background21.webp"></li>
         </ul>
       </div>
     </header>
@@ -167,7 +167,11 @@ xbbCode = 小白白 = 藏宝库</title>
     
 
     <div class="note info">
-<p>按照考点简单复习下数据结构与算法</p>
+<p>按照考点简单复习下数据结构与算法<br />
+更新日期：2021 年 12 月 19 日</p>
+</div>
+<div class="note warning">
+<p>这篇是写着玩的，写错了的话轻喷</p>
 </div>
 <h1 id="数据结构"><a class="anchor" href="#数据结构">#</a> 数据结构</h1>
 <h2 id="考点"><a class="anchor" href="#考点">#</a> 考点</h2>
@@ -220,15 +224,73 @@ xbbCode = 小白白 = 藏宝库</title>
 <p><img data-src="https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/4.png" alt="" /><br />
 <img data-src="https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/5.png" alt="" /></p>
 <ul>
-<li>链式表的操作
-<ul>
-<li>构造<br />
-<img data-src="https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/6.png" alt="" /></li>
-<li>查找：一直 next，直到符合条件</li>
-<li>插入：</li>
-<li>删除</li>
+<li>链式表的操作</li>
 </ul>
+<div class="tab" data-id="id2" data-title="构造">
+<p><img data-src="https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/6.png" alt="" /><br />
+头指针的作用：使空表和非空表的操作统一</p>
+<ul>
+<li>头插法：直接在头指针后插入新元素
+<ol>
+<li>建立要插入的元素节点</li>
+<li>新节点 next 指向头指针的 next</li>
+<li>头指针 next 指向新节点</li>
+</ol>
 </li>
+<li>尾插法
+<ol>
+<li>建立一个指针指向链表最后一个指针</li>
+<li>新建元素节点</li>
+<li>尾指针 next 指向新节点</li>
+<li>尾指针指向新节点</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="tab" data-id="id2" data-title="查找">
+<p>一直 next，直到符合条件<br />
+<ins class="dot">注意判断空指针</ins></p>
+</div>
+<div class="tab" data-id="id2" data-title="插入">
+<ul>
+<li>前插：
+<ol>
+<li>新建元素节点</li>
+<li>找到插入位置节点的前驱节点</li>
+<li>新节点 next 指向前驱的 next</li>
+<li>前驱 next 指向新节点</li>
+</ol>
+</li>
+<li>后插：
+<ol>
+<li>新建节点</li>
+<li>找到插入位置节点</li>
+<li>新节点 next 指向插入节点 next</li>
+<li>插入节点 next 指向新节点</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="tab" data-id="id2" data-title="删除">
+<ol>
+<li>找到要删除的节点的前驱</li>
+<li>前驱节点的 next 指向被删除节点的 next</li>
+<li>如果题目要求释放被删除节点，则需要用变量保存被删除节点，再用 free () 来释放内存</li>
+</ol>
+</div>
+<ul>
+<li>循环列表<br />
+<img data-src="https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/7.png" alt="" /><br />
+<img data-src="https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/8.png" alt="" /><br />
+<img data-src="https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/9.png" alt="" /><br />
+ {.gallery data-height=&quot;500&quot;)</li>
+</ul>
+<h2 id="个人认为的其他重点"><a class="anchor" href="#个人认为的其他重点">#</a> 个人认为的其他重点</h2>
+<ul>
+<li>节点初始化：注意 next 为 NULL</li>
+<li>时间复杂度：看着办吧，感觉不太会考</li>
+<li>空指针的判断</li>
+<li>malloc 用法</li>
 </ul>
 
   </div>
@@ -241,7 +303,7 @@ xbbCode = 小白白 = 藏宝库</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2021-12-19 11:22:37" itemprop="dateModified" datetime="2021-12-19T11:22:37+08:00">2021-12-19</time>
+    <time title="修改时间：2021-12-19 11:46:10" itemprop="dateModified" datetime="2021-12-19T11:46:10+08:00">2021-12-19</time>
   </span>
   <span id="期末复习/数据结构简单复习/" class="item leancloud_visitors" data-flag-title="数据结构简单复习" title="阅读次数">
       <span class="icon">
@@ -304,7 +366,7 @@ xbbCode = 小白白 = 藏宝库</title>
     <div class="item left">
       
 
-  <a href="/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/java%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;xbb2020&#x2F;cdn@4.1&#x2F;Rimage&#x2F;background35.webp" title="java期末复习">
+  <a href="/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/java%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;xbb2020&#x2F;cdn@4.1&#x2F;Rimage&#x2F;background12.webp" title="java期末复习">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 期末复习</span>
   <h3>java期末复习</h3>
@@ -328,7 +390,7 @@ xbbCode = 小白白 = 藏宝库</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.</span> <span class="toc-text"> 数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%80%83%E7%82%B9"><span class="toc-number">1.1.</span> <span class="toc-text"> 考点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E5%A4%8D%E4%B9%A0%E4%BA%86%E5%93%A6~"><span class="toc-number">1.2.</span> <span class="toc-text"> 开始复习了哦～</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E8%A1%A8"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 线性表</span></a></li></ol></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.</span> <span class="toc-text"> 数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%80%83%E7%82%B9"><span class="toc-number">1.1.</span> <span class="toc-text"> 考点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E5%A4%8D%E4%B9%A0%E4%BA%86%E5%93%A6~"><span class="toc-number">1.2.</span> <span class="toc-text"> 开始复习了哦～</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E8%A1%A8"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 线性表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%AA%E4%BA%BA%E8%AE%A4%E4%B8%BA%E7%9A%84%E5%85%B6%E4%BB%96%E9%87%8D%E7%82%B9"><span class="toc-number">1.3.</span> <span class="toc-text"> 个人认为的其他重点</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -437,16 +499,6 @@ xbbCode = 小白白 = 藏宝库</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/" title="分类于 重铸机器人荣光">重铸机器人荣光</a>
-</div>
-
-    <span><a href="/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/python%E5%9F%BA%E7%A1%80/" title="python基础">python基础</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
 <a href="/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/" title="分类于 主题相关">主题相关</a>
 <i class="ic i-angle-right"></i>
 <a href="/categories/%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3/%E6%B5%8B%E8%AF%95/" title="分类于 测试">测试</a>
@@ -459,40 +511,30 @@ xbbCode = 小白白 = 藏宝库</title>
   <li class="item">
     
 <div class="breadcrumb">
+<a href="/categories/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/" title="分类于 重铸机器人荣光">重铸机器人荣光</a>
+</div>
+
+    <span><a href="/%E9%87%8D%E9%93%B8%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8D%A3%E5%85%89/python%E5%9F%BA%E7%A1%80/" title="python基础">python基础</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" title="分类于 期末复习">期末复习</a>
+</div>
+
+    <span><a href="/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/python%E5%A4%8D%E4%B9%A0/" title="python复习">python复习</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
 <a href="/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" title="分类于 期末复习">期末复习</a>
 </div>
 
     <span><a href="/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/java%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" title="java期末复习">java期末复习</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="分类于 学习笔记">学习笔记</a>
-</div>
-
-    <span><a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/" title="第一周">第一周</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" title="分类于 期末复习">期末复习</a>
-</div>
-
-    <span><a href="/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95%E5%A4%8D%E4%B9%A0/" title="数据结构简单复习">数据结构简单复习</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="分类于 学习笔记">学习笔记</a>
-</div>
-
-    <span><a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/" title="第二周">第二周</a></span>
   </li>
 
       
@@ -514,7 +556,27 @@ xbbCode = 小白白 = 藏宝库</title>
 <a href="/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" title="分类于 期末复习">期末复习</a>
 </div>
 
-    <span><a href="/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/python%E5%A4%8D%E4%B9%A0/" title="python复习">python复习</a></span>
+    <span><a href="/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95%E5%A4%8D%E4%B9%A0/" title="数据结构简单复习">数据结构简单复习</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="分类于 学习笔记">学习笔记</a>
+</div>
+
+    <span><a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%B8%80%E5%91%A8/" title="第一周">第一周</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="分类于 学习笔记">学习笔记</a>
+</div>
+
+    <span><a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%AC%AC%E4%BA%8C%E5%91%A8/" title="第二周">第二周</a></span>
   </li>
 
   </ul>
@@ -539,13 +601,13 @@ xbbCode = 小白白 = 藏宝库</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="站点总字数">31k 字</span>
+    <span title="站点总字数">32k 字</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="站点阅读时长">28 分钟</span>
+    <span title="站点阅读时长">29 分钟</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>

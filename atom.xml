@@ -15,7 +15,11 @@
         <title>数据结构简单复习</title>
         <link rel="alternate" href="http://www.xbbcode.com/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95%E5%A4%8D%E4%B9%A0/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;按照考点简单复习下数据结构与算法&lt;/p&gt;
+&lt;p&gt;按照考点简单复习下数据结构与算法&lt;br /&gt;
+更新日期：2021 年 12 月 19 日&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;这篇是写着玩的，写错了的话轻喷&lt;/p&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;数据结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据结构&#34;&gt;#&lt;/a&gt; 数据结构&lt;/h1&gt;
 &lt;h2 id=&#34;考点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考点&#34;&gt;#&lt;/a&gt; 考点&lt;/h2&gt;
@@ -68,15 +72,73 @@
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/4.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;链式表的操作
-&lt;ul&gt;
-&lt;li&gt;构造&lt;br /&gt;
-&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/6.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;查找：一直 next，直到符合条件&lt;/li&gt;
-&lt;li&gt;插入：&lt;/li&gt;
-&lt;li&gt;删除&lt;/li&gt;
+&lt;li&gt;链式表的操作&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;构造&#34;&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/6.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+头指针的作用：使空表和非空表的操作统一&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;头插法：直接在头指针后插入新元素
+&lt;ol&gt;
+&lt;li&gt;建立要插入的元素节点&lt;/li&gt;
+&lt;li&gt;新节点 next 指向头指针的 next&lt;/li&gt;
+&lt;li&gt;头指针 next 指向新节点&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/li&gt;
+&lt;li&gt;尾插法
+&lt;ol&gt;
+&lt;li&gt;建立一个指针指向链表最后一个指针&lt;/li&gt;
+&lt;li&gt;新建元素节点&lt;/li&gt;
+&lt;li&gt;尾指针 next 指向新节点&lt;/li&gt;
+&lt;li&gt;尾指针指向新节点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;查找&#34;&gt;
+&lt;p&gt;一直 next，直到符合条件&lt;br /&gt;
+&lt;ins class=&#34;dot&#34;&gt;注意判断空指针&lt;/ins&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;插入&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;前插：
+&lt;ol&gt;
+&lt;li&gt;新建元素节点&lt;/li&gt;
+&lt;li&gt;找到插入位置节点的前驱节点&lt;/li&gt;
+&lt;li&gt;新节点 next 指向前驱的 next&lt;/li&gt;
+&lt;li&gt;前驱 next 指向新节点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;后插：
+&lt;ol&gt;
+&lt;li&gt;新建节点&lt;/li&gt;
+&lt;li&gt;找到插入位置节点&lt;/li&gt;
+&lt;li&gt;新节点 next 指向插入节点 next&lt;/li&gt;
+&lt;li&gt;插入节点 next 指向新节点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;删除&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;找到要删除的节点的前驱&lt;/li&gt;
+&lt;li&gt;前驱节点的 next 指向被删除节点的 next&lt;/li&gt;
+&lt;li&gt;如果题目要求释放被删除节点，则需要用变量保存被删除节点，再用 free () 来释放内存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;循环列表&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/7.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/8.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/9.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+ {.gallery data-height=&amp;quot;500&amp;quot;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;个人认为的其他重点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#个人认为的其他重点&#34;&gt;#&lt;/a&gt; 个人认为的其他重点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;节点初始化：注意 next 为 NULL&lt;/li&gt;
+&lt;li&gt;时间复杂度：看着办吧，感觉不太会考&lt;/li&gt;
+&lt;li&gt;空指针的判断&lt;/li&gt;
+&lt;li&gt;malloc 用法&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         <category term="期末复习" scheme="http://www.xbbcode.com/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/" />
