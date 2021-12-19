@@ -35,10 +35,9 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;开始复习了哦~&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始复习了哦~&#34;&gt;#&lt;/a&gt; 开始复习了哦～&lt;/h2&gt;
 &lt;h3 id=&#34;线性表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性表&#34;&gt;#&lt;/a&gt; 线性表&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/1.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/2.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-{.gallery}&lt;br /&gt;
-&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/1.png&#34; alt=&#34;&#34; title=&#34;线性表总览&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;顺序表的四种操作&lt;/li&gt;
 &lt;/ul&gt;
@@ -68,7 +67,7 @@
 &lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;查找&#34;&gt;
 &lt;p&gt;找就完了&lt;/p&gt;
 &lt;div class=&#34;note default&#34;&gt;
-&lt;p&gt;&lt;ruby&gt;待补充&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;没有了&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ruby&gt;待补充&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;没有了&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;~&lt;rt&gt;&lt;/rt&gt;&lt;/ruby&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/xbb2020/cdn/ds/4.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
